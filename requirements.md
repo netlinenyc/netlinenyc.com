@@ -46,11 +46,11 @@ Corporate website for **NetLine NYC**, a technology consulting firm. The primary
 
 ## Projects
 
-- **Total:** ~60 projects (±7)
-- **Distribution:** 20 per service area
-  - App Design (20)
-  - Cloud Migration (20)
-  - Cloud Consulting — GCP/AWS/Azure (20)
+- **Total:** 60 projects
+- **Distribution:** non-uniform (random-looking) split summing to 60
+  - App Design (23)
+  - Cloud Migration (16)
+  - Cloud Consulting — GCP/AWS/Azure (21)
 - **Tone:** Fictional but genuine-looking (realistic client types, outcomes, technologies)
 
 ---
@@ -58,7 +58,7 @@ Corporate website for **NetLine NYC**, a technology consulting firm. The primary
 ## Blog
 
 - **Total posts:** ~30
-- **Post length:** Short showcases, less than 1/4 page each
+- **Post length:** Full articles, ~1 page each (450–600 words)
 - **Date range:** Monthly entries from 2023 to present (June 2026)
 - **Format:** Sorted by month, newest first
 

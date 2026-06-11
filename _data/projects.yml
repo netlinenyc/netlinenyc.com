@@ -1,6 +1,36 @@
 # NetLine NYC — project portfolio data
 
-# --- App Design (20) ---
+# --- App Design (23) ---
+
+- title: "Wholesale Ordering App for Restaurant Suppliers"
+  category: app-design
+  client: "Regional food distribution company, NJ"
+  industry: "Logistics"
+  year: 2025
+  duration: "6 months"
+  stack: ["Flutter", "GraphQL", "PostgreSQL"]
+  summary: "Designed and built a wholesale ordering app replacing a fax-and-phone workflow used by some 700 restaurant accounts. Order guides are personalized per account, with cutoff-time logic and delivery-day awareness built into the ordering flow rather than enforced after submission."
+  outcome: "Within two quarters, 64% of weekly orders moved to the app, cutting order-entry errors 41%."
+
+- title: "Field Service Scheduling Console"
+  category: app-design
+  client: "HVAC services enterprise, Northeast US"
+  industry: "Professional Services"
+  year: 2024
+  duration: "7 months"
+  stack: ["React", "Next.js", "Mapbox"]
+  summary: "Replaced a dispatcher whiteboard process with a scheduling console combining technician calendars, skill tags, and live job status on a single map-driven screen. Designed alongside three dispatch teams through weekly working sessions, then rolled out region by region."
+  outcome: "Same-day schedule changes that previously took 20 minutes of phone calls now complete in under 2."
+
+- title: "Donor Engagement Mobile App"
+  category: app-design
+  client: "National non-profit, NYC headquarters"
+  industry: "Non-profit"
+  year: 2026
+  duration: "4 months"
+  stack: ["React Native", "TypeScript", "Stripe"]
+  summary: "Designed a donor-facing mobile app consolidating giving history, recurring donation management, and campaign updates that previously lived across email and a dated web portal. Payment flows were rebuilt on Stripe with Apple Pay and Google Pay support."
+  outcome: "Recurring donation enrollment rose 23% in the first 90 days after launch."
 
 - title: "Patient Intake Mobile App Redesign"
   category: app-design
@@ -202,7 +232,7 @@
   summary: "Established a design-token pipeline from the firm's Figma libraries into a Next.js component set, allowing the marketing team to assemble campaign pages from approved blocks. Included governance rules so brand updates propagate from Figma without engineering tickets."
   outcome: "Campaign landing pages now launch in 3 days instead of the previous 3-week agency cycle."
 
-# --- Cloud Migration (20) ---
+# --- Cloud Migration (16) ---
 
 - title: "Datacenter Exit to AWS"
   category: cloud-migration
@@ -284,16 +314,6 @@
   summary: "Migrated the manufacturer's SAP ECC landscape and surrounding integration servers from a hosting provider to Azure, including a HANA database move to certified M-series instances. Cutover was scheduled around the plant maintenance shutdown to avoid production impact."
   outcome: "Month-end close batch runtime improved 37% on the new instance family."
 
-- title: "Hotel Booking Engine Migration to GCP"
-  category: cloud-migration
-  client: "Hospitality booking startup, NYC"
-  industry: "Hospitality"
-  year: 2024
-  duration: "4 months"
-  stack: ["GCP", "Cloud Run", "Cloud SQL", "Terraform"]
-  summary: "Moved the startup's booking engine from a single dedicated-server provider to GCP after two outages during peak booking windows. Containerized the Rails application onto Cloud Run and migrated MySQL to Cloud SQL with under 15 minutes of write downtime."
-  outcome: "Infrastructure now scales with demand, cutting baseline hosting spend 26% outside peak periods."
-
 - title: "Student Information System Database Migration"
   category: cloud-migration
   client: "Private university, NYC"
@@ -314,16 +334,6 @@
   summary: "Replatformed a transportation management system from VM-based deployment to ECS Fargate, breaking a two-week release cycle bottleneck caused by shared environments. Database tier moved to Aurora with a read-replica strategy for the reporting workloads that had been degrading OLTP performance."
   outcome: "Release frequency went from biweekly to 3-4 deploys per week with no change-failure increase."
 
-- title: "Claims Archive Migration to Azure Blob"
-  category: cloud-migration
-  client: "Mid-size property insurer, CT"
-  industry: "Insurance"
-  year: 2023
-  duration: "3 months"
-  stack: ["Azure", "Azure Blob Storage", "Azure Data Box", "PowerShell"]
-  summary: "Migrated 290 TB of scanned claims documents from an on-premises NAS pair to Azure Blob with lifecycle tiering to cool and archive storage. Initial bulk transfer used Data Box appliances; a verification pass compared checksums on every object before the NAS was decommissioned."
-  outcome: "Document storage cost per TB fell 58% after lifecycle policies took effect."
-
 - title: "Media Asset Pipeline Move to GCP"
   category: cloud-migration
   client: "Post-production studio, Brooklyn"
@@ -334,15 +344,6 @@
   summary: "Migrated the studio's render and transcode pipeline from an on-premises render farm to GCP, keeping artist workstations local and moving only batch processing. Burst rendering on preemptible instances replaced a fixed 60-node farm that sat idle between projects."
   outcome: "Average render queue wait during delivery weeks fell from 9 hours to 70 minutes."
 
-- title: "Nonprofit CRM and Email Infrastructure Migration"
-  category: cloud-migration
-  client: "National non-profit, NYC headquarters"
-  industry: "Non-profit"
-  year: 2024
-  duration: "10 weeks"
-  stack: ["AWS", "EC2", "RDS", "Amazon SES"]
-  summary: "Moved the organization's self-hosted CRM and bulk email infrastructure out of a closet server rack to AWS, with SES replacing a flaky self-managed mail relay. Sized conservatively against grant-funded budget constraints, with reserved instances purchased after a 60-day usage baseline."
-  outcome: "Email campaign deliverability improved from 91% to 98.4% after the SES move."
 
 - title: "Energy Trading Platform Migration to AWS"
   category: cloud-migration
@@ -394,17 +395,7 @@
   summary: "Migrated the chain's on-premises SQL Server data warehouse to BigQuery, rebuilding 380 transformation jobs in dbt and replacing overnight SSIS loads with Dataflow pipelines. Report parity was verified store-by-store with finance before the legacy warehouse was switched off."
   outcome: "Daily sales reporting is available by 6am instead of the prior 11am, with warehouse costs down 29%."
 
-- title: "Professional Services File Server Consolidation to AWS"
-  category: cloud-migration
-  client: "Mid-size accounting firm, NYC and Long Island"
-  industry: "Professional Services"
-  year: 2023
-  duration: "9 weeks"
-  stack: ["AWS", "FSx for Windows", "DataSync", "Active Directory"]
-  summary: "Consolidated file servers from three offices onto FSx for Windows File Server with DataSync handling the initial 38 TB transfer and nightly deltas during the transition. Folder permissions were rationalized along the way, eliminating 11 years of accumulated one-off ACLs."
-  outcome: "Cross-office file access complaints to the help desk fell 67% in the following quarter."
-
-# --- Cloud Consulting (20) ---
+# --- Cloud Consulting (21) ---
 
 - title: "FinOps Engagement for SaaS Platform"
   category: cloud-consulting
@@ -605,3 +596,13 @@
   stack: ["AWS", "Azure", "Terraform", "FOCUS billing spec"]
   summary: "Assessed the carrier's de facto multi-cloud position, where AWS hosted policy systems and Azure ran the data estate, with duplicated tooling and split platform teams. Recommended formalizing workload placement criteria and consolidating CI/CD and observability tooling rather than forcing a single-cloud consolidation."
   outcome: "Tooling consolidation alone removed $640K in annual duplicate licensing."
+
+- title: "Disaster Recovery Program for Payments Processor"
+  category: cloud-consulting
+  client: "Mid-size payments company, NYC"
+  industry: "Fintech"
+  year: 2026
+  duration: "5 months"
+  stack: ["AWS", "Aurora Global Database", "Route 53", "Terraform"]
+  summary: "Designed and implemented a cross-region disaster recovery posture for a card-processing platform whose previous DR plan had never been exercised end to end. Built automated failover runbooks and instituted quarterly game days with measured recovery objectives."
+  outcome: "First full-region failover exercise completed in 38 minutes against a 60-minute RTO target."
