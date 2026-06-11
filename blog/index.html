@@ -1,0 +1,33 @@
+---
+layout: default
+title: Blog
+description: Short notes from NetLine NYC on cloud platforms, migrations, and application design.
+---
+
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Blog</p>
+    <h1>Notes from the field</h1>
+    <p class="lede">Short, practical notes on cloud platforms, migrations, and application design — written by the consultants doing the work.</p>
+  </div>
+</section>
+
+<section class="page-body">
+  <div class="container">
+    {% assign by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+    {% for year in by_year %}
+      <p class="year-mark">{{ year.name }}</p>
+      <ul class="post-list">
+        {% for post in year.items %}
+        <li class="post-item">
+          <span class="post-date">{{ post.date | date: "%b %-d" }} · {{ post.category }}</span>
+          <div>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p class="post-excerpt">{{ post.excerpt | strip_html | strip }}</p>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+</section>

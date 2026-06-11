@@ -1,0 +1,38 @@
+title: NetLine NYC
+tagline: Technology Consulting
+description: >-
+  NetLine NYC is a New York technology consulting firm specializing in
+  application design, cloud migration, and cloud platform consulting
+  across Google Cloud, AWS, and Azure.
+url: "https://netlinenyc.com"
+baseurl: ""
+lang: en
+timezone: America/New_York
+
+email: contact@netlinenyc.com
+
+permalink: /blog/:year/:month/:title/
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+exclude:
+  - requirements.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

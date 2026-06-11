@@ -1,0 +1,93 @@
+---
+layout: default
+title: Projects
+description: Selected client engagements across app design, cloud migration, and cloud consulting.
+---
+
+{% assign app_design = site.data.projects | where: "category", "app-design" | sort: "year" | reverse %}
+{% assign migration = site.data.projects | where: "category", "cloud-migration" | sort: "year" | reverse %}
+{% assign consulting = site.data.projects | where: "category", "cloud-consulting" | sort: "year" | reverse %}
+
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Projects</p>
+    <h1>Selected work</h1>
+    <p class="lede">A representative sample of client engagements since 2023. Client names are withheld under standard confidentiality terms.</p>
+    <nav class="cat-nav" aria-label="Project categories">
+      <a href="#app-design">App Design ({{ app_design | size }})</a>
+      <a href="#cloud-migration">Cloud Migration ({{ migration | size }})</a>
+      <a href="#cloud-consulting">Cloud Consulting ({{ consulting | size }})</a>
+    </nav>
+  </div>
+</section>
+
+<section class="project-section" id="app-design">
+  <div class="container">
+    <p class="eyebrow">01 — App Design</p>
+    <h2>Applications &amp; design systems</h2>
+    <div class="project-grid">
+      {% for p in app_design %}
+      <article class="project-card">
+        <p class="project-meta">{{ p.industry }} · {{ p.year }} · {{ p.duration }}</p>
+        <h3>{{ p.title }}</h3>
+        <p class="project-client">{{ p.client }}</p>
+        <p class="summary">{{ p.summary }}</p>
+        <p class="project-outcome">{{ p.outcome }}</p>
+        <div class="tags">
+          {% for t in p.stack %}<span class="tag">{{ t }}</span>{% endfor %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="project-section" id="cloud-migration">
+  <div class="container">
+    <p class="eyebrow">02 — Cloud Migration</p>
+    <h2>Migrations &amp; replatforming</h2>
+    <div class="project-grid">
+      {% for p in migration %}
+      <article class="project-card">
+        <p class="project-meta">{{ p.industry }} · {{ p.year }} · {{ p.duration }}</p>
+        <h3>{{ p.title }}</h3>
+        <p class="project-client">{{ p.client }}</p>
+        <p class="summary">{{ p.summary }}</p>
+        <p class="project-outcome">{{ p.outcome }}</p>
+        <div class="tags">
+          {% for t in p.stack %}<span class="tag">{{ t }}</span>{% endfor %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="project-section" id="cloud-consulting">
+  <div class="container">
+    <p class="eyebrow">03 — Cloud Consulting</p>
+    <h2>Architecture, cost &amp; compliance</h2>
+    <div class="project-grid">
+      {% for p in consulting %}
+      <article class="project-card">
+        <p class="project-meta">{{ p.industry }} · {{ p.year }} · {{ p.duration }}</p>
+        <h3>{{ p.title }}</h3>
+        <p class="project-client">{{ p.client }}</p>
+        <p class="summary">{{ p.summary }}</p>
+        <p class="project-outcome">{{ p.outcome }}</p>
+        <div class="tags">
+          {% for t in p.stack %}<span class="tag">{{ t }}</span>{% endfor %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section navy cta-band">
+  <div class="container">
+    <h2>Your project could be next.</h2>
+    <p>We take on a limited number of engagements per quarter.</p>
+    <a class="btn inverse" href="{{ '/contact/' | relative_url }}">Contact us</a>
+  </div>
+</section>

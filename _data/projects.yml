@@ -1,0 +1,607 @@
+# NetLine NYC — project portfolio data
+
+# --- App Design (20) ---
+
+- title: "Patient Intake Mobile App Redesign"
+  category: app-design
+  client: "Multi-location dermatology group, Manhattan"
+  industry: "Healthcare"
+  year: 2023
+  duration: "5 months"
+  stack: ["React Native", "TypeScript", "Firebase"]
+  summary: "Replaced a paper-based intake workflow with a cross-platform mobile app covering registration, insurance capture, and consent forms. Conducted three rounds of usability testing with front-desk staff and patients before rollout across nine clinic locations."
+  outcome: "Average patient check-in time dropped from 14 minutes to just under 6."
+
+- title: "Claims Adjuster Field Tool"
+  category: app-design
+  client: "Fortune 500 insurance carrier"
+  industry: "Insurance"
+  year: 2024
+  duration: "9 months"
+  stack: ["Swift", "Kotlin", "GraphQL"]
+  summary: "Designed and built native iOS and Android apps for field adjusters to document property damage offline and sync evidence packages when connectivity returns. Worked with the carrier's internal API team to define a GraphQL contract that consolidated four legacy endpoints."
+  outcome: "Claim documentation rework requests fell 31% in the first two quarters after launch."
+
+- title: "Design System for Internal Banking Tools"
+  category: app-design
+  client: "Mid-size regional bank, tri-state area"
+  industry: "Fintech"
+  year: 2023
+  duration: "7 months"
+  stack: ["React", "Storybook", "Figma"]
+  summary: "Audited 23 internal web tools built by different teams over a decade and consolidated their UI patterns into a single component library with documented usage guidelines. Delivered a Figma library kept in sync with the React implementation and trained four internal teams on adoption."
+  outcome: "New internal tool screens now ship with 62% less front-end code on average."
+
+- title: "Tenant Portal Web Application"
+  category: app-design
+  client: "Commercial real estate operator, NYC metro"
+  industry: "Real Estate"
+  year: 2024
+  duration: "6 months"
+  stack: ["Next.js", "Tailwind CSS", "PostgreSQL"]
+  summary: "Built a tenant-facing portal for rent payment, maintenance requests, and building announcements across a 40-building commercial portfolio. The design phase included interviews with property managers to map the existing phone-and-email workflow before any screens were drawn."
+  outcome: "73% of maintenance requests moved off the phone line within four months."
+
+- title: "Courtroom Calendar UX Overhaul"
+  category: app-design
+  client: "Mid-size litigation firm, Manhattan"
+  industry: "Legal"
+  year: 2023
+  duration: "4 months"
+  stack: ["Vue", "Vuetify", "Node.js"]
+  summary: "Redesigned the firm's internal docketing tool, which paralegals described as the slowest part of their day. Reworked the information architecture around attorney schedules rather than case numbers and rebuilt the front end on Vue with keyboard-first interactions."
+  outcome: "Median time to schedule a court date dropped from 4.5 minutes to 80 seconds."
+
+- title: "Direct-to-Consumer Commerce App"
+  category: app-design
+  client: "Specialty food retailer, Brooklyn"
+  industry: "Retail"
+  year: 2024
+  duration: "8 months"
+  stack: ["Flutter", "Stripe", "Shopify API"]
+  summary: "Designed and shipped a Flutter app layered on the client's existing Shopify backend, with native checkout, subscription management, and order tracking. Ran a closed beta with 300 loyalty-program members to validate the subscription flow before public release."
+  outcome: "Mobile conversion rate came in 2.3x higher than the mobile web experience it replaced."
+
+- title: "Dispatch Console for Last-Mile Delivery"
+  category: app-design
+  client: "Mid-size logistics provider, NJ"
+  industry: "Logistics"
+  year: 2024
+  duration: "11 months"
+  stack: ["React", "Mapbox", "WebSockets"]
+  summary: "Built a real-time dispatch console showing driver positions, route progress, and exception alerts on a single screen, replacing a workflow that spanned three browser tabs and a radio. Iterated weekly with dispatchers in the Newark hub, treating their shift handoff notes as the primary backlog."
+  outcome: "Dispatchers now manage 27% more active routes per shift without added headcount."
+
+- title: "Streaming Content Tagging Tool"
+  category: app-design
+  client: "Digital media company, NYC"
+  industry: "Media"
+  year: 2025
+  duration: "5 months"
+  stack: ["React", "TypeScript", "FastAPI"]
+  summary: "Designed an internal tool for editorial staff to tag and curate video content, replacing a shared spreadsheet that regularly lost concurrent edits. Added bulk operations, keyboard shortcuts, and an audit trail requested by the rights-management team."
+  outcome: "Editorial tagging throughput rose 44% while tagging errors flagged by QA fell by roughly a third."
+
+- title: "Student Progress Dashboard"
+  category: app-design
+  client: "Venture-backed edtech startup, NYC"
+  industry: "Edtech"
+  year: 2025
+  duration: "6 weeks"
+  stack: ["Next.js", "Recharts", "Supabase"]
+  summary: "Delivered a teacher-facing dashboard visualizing student progress across the startup's tutoring curriculum in time for the fall sales cycle. Scope was deliberately narrow: three views, validated against recorded user sessions from the existing product."
+  outcome: "The dashboard featured in demos that closed 11 of the 14 district deals in the fall pipeline."
+
+- title: "Hotel Staff Operations App"
+  category: app-design
+  client: "Boutique hotel group, Manhattan and Miami"
+  industry: "Hospitality"
+  year: 2023
+  duration: "7 months"
+  stack: ["React Native", "Expo", "AWS AppSync"]
+  summary: "Built a staff app coordinating housekeeping, maintenance, and front-desk requests across five properties, replacing printed room-status sheets. The design accounted for high staff turnover with a first-shift onboarding flow that requires no training session."
+  outcome: "Average room turnaround time improved by 18 minutes per checkout."
+
+- title: "Donor Management Web App"
+  category: app-design
+  client: "Education-focused non-profit, NYC"
+  industry: "Non-profit"
+  year: 2024
+  duration: "3 months"
+  stack: ["Vue", "Django", "PostgreSQL"]
+  summary: "Replaced a donor tracking system held together by mail-merge macros with a purpose-built web app for the development team. Migrated 12 years of donor history and built segmentation tools for the annual giving campaign."
+  outcome: "Year-end campaign mailing preparation went from three weeks of staff time to four days."
+
+- title: "Field Inspection App for Energy Utility"
+  category: app-design
+  client: "Regional energy utility, upstate NY"
+  industry: "Energy"
+  year: 2025
+  duration: "10 months"
+  stack: ["Kotlin", "Jetpack Compose", "Azure AD"]
+  summary: "Developed an Android app for substation and line inspections with offline-first data capture, photo annotation, and integration into the utility's existing work-order system. Hardware constraints mattered: the app was tuned for ruggedized tablets used in gloves and direct sunlight."
+  outcome: "Inspection reports now reach the back office the same day instead of the prior 6-day average."
+
+- title: "Citizen Service Request Portal"
+  category: app-design
+  client: "Mid-size city government, Hudson Valley"
+  industry: "Government"
+  year: 2024
+  duration: "8 months"
+  stack: ["React", "Node.js", "PostgreSQL"]
+  summary: "Designed an accessible, WCAG 2.1 AA compliant portal for residents to report issues like potholes, missed pickups, and streetlight outages, with status tracking and multilingual support. Worked with the city clerk's office to map each request type to the department that actually resolves it."
+  outcome: "Duplicate service requests fell 41% once residents could see existing open reports."
+
+- title: "Wealth Advisory Client Onboarding Flow"
+  category: app-design
+  client: "Independent wealth management firm, Midtown"
+  industry: "Fintech"
+  year: 2025
+  duration: "4 months"
+  stack: ["Next.js", "Plaid", "DocuSign API"]
+  summary: "Rebuilt the client onboarding journey, consolidating account opening, KYC document collection, and funding into a single guided flow. Compliance reviewed each step, and the e-signature integration eliminated the courier step for account agreements."
+  outcome: "Average onboarding completion time dropped from 9 days to 2."
+
+- title: "Manufacturing Floor Andon Board"
+  category: app-design
+  client: "Precision parts manufacturer, Long Island"
+  industry: "Manufacturing"
+  year: 2023
+  duration: "10 weeks"
+  stack: ["React", "MQTT", "Grafana"]
+  summary: "Built large-format status displays for the production floor showing line status, defect counts, and shift targets fed by existing PLC data over MQTT. Designed for readability at 15 meters and zero interaction; supervisors manage thresholds from a small admin view."
+  outcome: "Line stoppages are now acknowledged in under 2 minutes, down from an 11-minute average."
+
+- title: "Telehealth Scheduling UX Overhaul"
+  category: app-design
+  client: "Behavioral health startup, NYC"
+  industry: "Healthcare"
+  year: 2024
+  duration: "5 months"
+  stack: ["React Native", "Twilio", "HealthKit"]
+  summary: "Redesigned appointment booking and session-join flows after analytics showed most drop-offs happened between booking and first session. Introduced calendar-native reminders, a pre-session tech check, and a redesigned reschedule path that does not require a phone call."
+  outcome: "First-session no-show rate dropped from 24% to 13%."
+
+- title: "Legal Document Review Workspace"
+  category: app-design
+  client: "AmLaw 200 law firm, NYC"
+  industry: "Legal"
+  year: 2025
+  duration: "9 months"
+  stack: ["React", "TypeScript", "Elasticsearch"]
+  summary: "Designed a document review workspace for associates handling discovery, with side-by-side comparison, issue tagging, and saved search workflows. Conducted contextual inquiry sessions with two active case teams; their existing folder conventions directly shaped the information architecture."
+  outcome: "Reviewers code an average of 19% more documents per hour than in the prior tool."
+
+- title: "Restaurant Group Loyalty App"
+  category: app-design
+  client: "Multi-brand restaurant group, NYC"
+  industry: "Hospitality"
+  year: 2026
+  duration: "6 months"
+  stack: ["Flutter", "Firebase", "Square API"]
+  summary: "Built a unified loyalty app spanning the group's four restaurant brands, with shared points, brand-specific theming, and POS integration through Square. The design system was structured so each brand keeps its identity while the codebase stays single."
+  outcome: "Repeat-visit frequency among app users runs 22% above the non-app customer baseline."
+
+- title: "Freight Quoting Internal Tool"
+  category: app-design
+  client: "Freight brokerage startup, NJ"
+  industry: "Logistics"
+  year: 2026
+  duration: "8 weeks"
+  stack: ["Vue", "FastAPI", "Redis"]
+  summary: "Built an internal quoting tool that pulls live carrier rates and lane history so brokers can produce a quote during the first customer call. Replaced a process involving two spreadsheets and a rate sheet PDF updated weekly."
+  outcome: "Quote turnaround dropped from a half-day average to under 10 minutes for standard lanes."
+
+- title: "Figma-to-Production Pipeline for Marketing Sites"
+  category: app-design
+  client: "Professional services firm, Manhattan"
+  industry: "Professional Services"
+  year: 2025
+  duration: "3 months"
+  stack: ["Figma", "Next.js", "Contentful"]
+  summary: "Established a design-token pipeline from the firm's Figma libraries into a Next.js component set, allowing the marketing team to assemble campaign pages from approved blocks. Included governance rules so brand updates propagate from Figma without engineering tickets."
+  outcome: "Campaign landing pages now launch in 3 days instead of the previous 3-week agency cycle."
+
+# --- Cloud Migration (20) ---
+
+- title: "Datacenter Exit to AWS"
+  category: cloud-migration
+  client: "Mid-size insurance carrier, Northeast US"
+  industry: "Insurance"
+  year: 2023
+  duration: "14 months"
+  stack: ["AWS", "Terraform", "AWS DMS", "VMware"]
+  summary: "Planned and executed the closure of two leased datacenters, moving 340 virtual machines and 28 databases to AWS in six migration waves. Policy admin systems were rehosted first, then replatformed onto managed services where licensing made it economical."
+  outcome: "Annual infrastructure run cost fell 34% against the final year of datacenter operation."
+
+- title: "Oracle to Aurora PostgreSQL Migration"
+  category: cloud-migration
+  client: "Fortune 500 media conglomerate"
+  industry: "Media"
+  year: 2024
+  duration: "10 months"
+  stack: ["AWS Aurora", "AWS DMS", "PostgreSQL", "Python"]
+  summary: "Migrated 14 Oracle databases backing the company's ad-sales platform to Aurora PostgreSQL, including conversion of roughly 1,100 stored procedures. Built a dual-write validation harness that compared query results between the two systems for six weeks before cutover."
+  outcome: "Database licensing and support spend dropped by $1.7M annually."
+
+- title: "Mainframe Batch Offload to GCP"
+  category: cloud-migration
+  client: "State government finance agency"
+  industry: "Government"
+  year: 2024
+  duration: "13 months"
+  stack: ["GCP", "BigQuery", "Cloud Composer", "Java"]
+  summary: "Offloaded nightly batch reporting workloads from a z/OS mainframe to GCP, rewriting COBOL report jobs as Java pipelines orchestrated by Cloud Composer with BigQuery as the analytical store. The mainframe remains the system of record; the offload targeted the MIPS-heavy reporting tier only."
+  outcome: "Monthly mainframe MIPS consumption decreased 28%, deferring a planned capacity upgrade."
+
+- title: "VMware Exit to Azure VMware Solution"
+  category: cloud-migration
+  client: "Regional hospital network, NY/NJ"
+  industry: "Healthcare"
+  year: 2025
+  duration: "9 months"
+  stack: ["Azure", "Azure VMware Solution", "Veeam", "ExpressRoute"]
+  summary: "Following the client's VMware licensing renewal shock, migrated 520 VMs to Azure VMware Solution as a first step, preserving existing operational tooling and runbooks. Established ExpressRoute connectivity and replicated backup workflows before the first workload moved."
+  outcome: "The client avoided a projected 3.2x on-premises licensing increase at renewal."
+
+- title: "E-commerce Replatform to Kubernetes on GCP"
+  category: cloud-migration
+  client: "National apparel retailer"
+  industry: "Retail"
+  year: 2023
+  duration: "11 months"
+  stack: ["GKE", "Terraform", "Cloud SQL", "Anthos Service Mesh"]
+  summary: "Replatformed a monolithic e-commerce application from owned hardware to GKE, decomposing checkout and inventory into separately deployable services along the way. Load-tested against the prior year's Black Friday traffic profile plus 40% headroom before cutover in September."
+  outcome: "The site held a 99.98% success rate through its first holiday peak on the new platform."
+
+- title: "Lift-and-Shift of Legal Practice Management Suite"
+  category: cloud-migration
+  client: "Mid-size law firm, Manhattan"
+  industry: "Legal"
+  year: 2023
+  duration: "6 weeks"
+  stack: ["AWS", "EC2", "FSx for Windows", "Active Directory"]
+  summary: "Rehosted the firm's practice management and document management servers from an aging office server room to AWS ahead of an office relocation. Deliberately minimal scope: like-for-like rehost with FSx replacing the Windows file cluster, leaving modernization for a later phase."
+  outcome: "The firm vacated its server room on schedule with a single 4-hour cutover window."
+
+- title: "Multi-Region Move for Trading Analytics Platform"
+  category: cloud-migration
+  client: "Quantitative trading firm, NYC"
+  industry: "Fintech"
+  year: 2025
+  duration: "7 months"
+  stack: ["AWS", "Terraform", "Aurora Global Database", "Route 53"]
+  summary: "Converted a single-region AWS deployment of a post-trade analytics platform into an active-passive multi-region architecture spanning us-east-1 and us-west-2. Codified the entire environment in Terraform first, since region replication exposed years of console-managed drift."
+  outcome: "Demonstrated regional failover in 22 minutes during the audited DR exercise, against a 60-minute RTO target."
+
+- title: "SAP Workload Migration to Azure"
+  category: cloud-migration
+  client: "Industrial equipment manufacturer, PA"
+  industry: "Manufacturing"
+  year: 2024
+  duration: "12 months"
+  stack: ["Azure", "SAP HANA", "Azure NetApp Files", "Azure Site Recovery"]
+  summary: "Migrated the manufacturer's SAP ECC landscape and surrounding integration servers from a hosting provider to Azure, including a HANA database move to certified M-series instances. Cutover was scheduled around the plant maintenance shutdown to avoid production impact."
+  outcome: "Month-end close batch runtime improved 37% on the new instance family."
+
+- title: "Hotel Booking Engine Migration to GCP"
+  category: cloud-migration
+  client: "Hospitality booking startup, NYC"
+  industry: "Hospitality"
+  year: 2024
+  duration: "4 months"
+  stack: ["GCP", "Cloud Run", "Cloud SQL", "Terraform"]
+  summary: "Moved the startup's booking engine from a single dedicated-server provider to GCP after two outages during peak booking windows. Containerized the Rails application onto Cloud Run and migrated MySQL to Cloud SQL with under 15 minutes of write downtime."
+  outcome: "Infrastructure now scales with demand, cutting baseline hosting spend 26% outside peak periods."
+
+- title: "Student Information System Database Migration"
+  category: cloud-migration
+  client: "Private university, NYC"
+  industry: "Edtech"
+  year: 2023
+  duration: "8 months"
+  stack: ["AWS", "RDS for SQL Server", "AWS DMS", "Terraform"]
+  summary: "Migrated the university's student information system databases from end-of-life on-premises SQL Server hardware to RDS, coordinated around the academic calendar with cutover during the winter break. Built rollback procedures that were rehearsed twice against a production-scale copy."
+  outcome: "Registration-week database incidents dropped to zero in the two terms following migration."
+
+- title: "Logistics TMS Replatform to AWS Containers"
+  category: cloud-migration
+  client: "Enterprise freight and logistics provider"
+  industry: "Logistics"
+  year: 2025
+  duration: "10 months"
+  stack: ["AWS", "ECS Fargate", "Aurora", "Terraform"]
+  summary: "Replatformed a transportation management system from VM-based deployment to ECS Fargate, breaking a two-week release cycle bottleneck caused by shared environments. Database tier moved to Aurora with a read-replica strategy for the reporting workloads that had been degrading OLTP performance."
+  outcome: "Release frequency went from biweekly to 3-4 deploys per week with no change-failure increase."
+
+- title: "Claims Archive Migration to Azure Blob"
+  category: cloud-migration
+  client: "Mid-size property insurer, CT"
+  industry: "Insurance"
+  year: 2023
+  duration: "3 months"
+  stack: ["Azure", "Azure Blob Storage", "Azure Data Box", "PowerShell"]
+  summary: "Migrated 290 TB of scanned claims documents from an on-premises NAS pair to Azure Blob with lifecycle tiering to cool and archive storage. Initial bulk transfer used Data Box appliances; a verification pass compared checksums on every object before the NAS was decommissioned."
+  outcome: "Document storage cost per TB fell 58% after lifecycle policies took effect."
+
+- title: "Media Asset Pipeline Move to GCP"
+  category: cloud-migration
+  client: "Post-production studio, Brooklyn"
+  industry: "Media"
+  year: 2024
+  duration: "6 months"
+  stack: ["GCP", "Cloud Storage", "Transcoder API", "Filestore"]
+  summary: "Migrated the studio's render and transcode pipeline from an on-premises render farm to GCP, keeping artist workstations local and moving only batch processing. Burst rendering on preemptible instances replaced a fixed 60-node farm that sat idle between projects."
+  outcome: "Average render queue wait during delivery weeks fell from 9 hours to 70 minutes."
+
+- title: "Nonprofit CRM and Email Infrastructure Migration"
+  category: cloud-migration
+  client: "National non-profit, NYC headquarters"
+  industry: "Non-profit"
+  year: 2024
+  duration: "10 weeks"
+  stack: ["AWS", "EC2", "RDS", "Amazon SES"]
+  summary: "Moved the organization's self-hosted CRM and bulk email infrastructure out of a closet server rack to AWS, with SES replacing a flaky self-managed mail relay. Sized conservatively against grant-funded budget constraints, with reserved instances purchased after a 60-day usage baseline."
+  outcome: "Email campaign deliverability improved from 91% to 98.4% after the SES move."
+
+- title: "Energy Trading Platform Migration to AWS"
+  category: cloud-migration
+  client: "Energy trading desk, Northeast utility holding company"
+  industry: "Energy"
+  year: 2025
+  duration: "8 months"
+  stack: ["AWS", "EKS", "TimescaleDB", "Terraform"]
+  summary: "Migrated a market-data ingestion and position-tracking platform from colo hardware to EKS, with the time-series store moved to TimescaleDB on EC2 after benchmarking against managed alternatives. Latency budgets to the ISO data feeds drove region and AZ placement decisions."
+  outcome: "Feed-to-dashboard latency held under the 500ms budget at 99th percentile post-migration."
+
+- title: "City Permitting System Rehost to Azure Government"
+  category: cloud-migration
+  client: "Large city department of buildings"
+  industry: "Government"
+  year: 2025
+  duration: "12 months"
+  stack: ["Azure Government", "Azure App Service", "Azure SQL", "Azure DevOps"]
+  summary: "Rehosted the city's permitting and inspection scheduling system to Azure Government, replacing servers managed by a vendor whose contract was ending. The engagement included knowledge transfer to city IT staff, who now operate the environment with quarterly support from NetLine."
+  outcome: "Permitting portal availability rose from 97.1% to 99.6% in the first six months."
+
+- title: "Fintech Startup Heroku-to-AWS Migration"
+  category: cloud-migration
+  client: "Series B payments startup, NYC"
+  industry: "Fintech"
+  year: 2026
+  duration: "4 months"
+  stack: ["AWS", "ECS Fargate", "RDS PostgreSQL", "Terraform"]
+  summary: "Migrated the startup's platform off Heroku to AWS ahead of a compliance-driven requirement for network-level controls and a private database tier. Maintained the team's deploy-on-merge workflow by rebuilding the pipeline on GitHub Actions and ECS before any traffic moved."
+  outcome: "Platform spend per transaction fell 43% at current volume, with VPC isolation satisfying the auditor's findings."
+
+- title: "Hospital Lab Results Interface Migration"
+  category: cloud-migration
+  client: "Regional hospital network, NY/NJ"
+  industry: "Healthcare"
+  year: 2024
+  duration: "7 months"
+  stack: ["Azure", "AKS", "Mirth Connect", "HL7"]
+  summary: "Migrated the network's HL7 interface engine cluster handling lab and radiology results from aging on-premises VMs to AKS. Ran old and new engines in parallel for five weeks, comparing message-level output across all 64 interfaces before decommissioning."
+  outcome: "Interface engine unplanned downtime fell from 14 hours to under 1 hour annually."
+
+- title: "Retail Analytics Warehouse Migration to BigQuery"
+  category: cloud-migration
+  client: "Mid-size grocery chain, Northeast US"
+  industry: "Retail"
+  year: 2026
+  duration: "5 months"
+  stack: ["GCP", "BigQuery", "Dataflow", "dbt"]
+  summary: "Migrated the chain's on-premises SQL Server data warehouse to BigQuery, rebuilding 380 transformation jobs in dbt and replacing overnight SSIS loads with Dataflow pipelines. Report parity was verified store-by-store with finance before the legacy warehouse was switched off."
+  outcome: "Daily sales reporting is available by 6am instead of the prior 11am, with warehouse costs down 29%."
+
+- title: "Professional Services File Server Consolidation to AWS"
+  category: cloud-migration
+  client: "Mid-size accounting firm, NYC and Long Island"
+  industry: "Professional Services"
+  year: 2023
+  duration: "9 weeks"
+  stack: ["AWS", "FSx for Windows", "DataSync", "Active Directory"]
+  summary: "Consolidated file servers from three offices onto FSx for Windows File Server with DataSync handling the initial 38 TB transfer and nightly deltas during the transition. Folder permissions were rationalized along the way, eliminating 11 years of accumulated one-off ACLs."
+  outcome: "Cross-office file access complaints to the help desk fell 67% in the following quarter."
+
+# --- Cloud Consulting (20) ---
+
+- title: "FinOps Engagement for SaaS Platform"
+  category: cloud-consulting
+  client: "Series C HR-tech company, NYC"
+  industry: "Fintech"
+  year: 2024
+  duration: "3 months"
+  stack: ["AWS", "Cost Explorer", "Kubecost", "Terraform"]
+  summary: "Conducted a full AWS spend review covering compute commitment coverage, storage lifecycle gaps, and an EKS cluster running at 19% average utilization. Delivered a prioritized savings plan and implemented the top items, including rightsizing, Savings Plans purchases, and gp2-to-gp3 conversion."
+  outcome: "Monthly AWS spend dropped 38% with no performance regressions reported."
+
+- title: "HIPAA Compliance Architecture Review"
+  category: cloud-consulting
+  client: "Telehealth startup, NYC"
+  industry: "Healthcare"
+  year: 2023
+  duration: "10 weeks"
+  stack: ["AWS", "AWS Config", "CloudTrail", "Terraform"]
+  summary: "Reviewed the startup's AWS environment against HIPAA technical safeguards ahead of its first enterprise health-system deal. Findings covered unencrypted EBS volumes, missing BAA-eligible service boundaries, and absent audit logging; remediation was implemented jointly with the in-house team."
+  outcome: "The client passed the health system's security assessment on the first submission."
+
+- title: "GCP Landing Zone for Insurance Subsidiaries"
+  category: cloud-consulting
+  client: "Fortune 500 insurance holding company"
+  industry: "Insurance"
+  year: 2024
+  duration: "6 months"
+  stack: ["GCP", "Terraform", "Cloud Identity", "VPC Service Controls"]
+  summary: "Designed and built a GCP organization structure and landing zone supporting four operating subsidiaries with separate billing, shared networking, and centralized guardrails. Folder hierarchy, IAM conventions, and a Terraform module library let subsidiary teams provision projects through pull requests."
+  outcome: "New project provisioning went from a 3-week ticket queue to same-day self-service."
+
+- title: "SOC 2 Readiness for Legal-Tech Platform"
+  category: cloud-consulting
+  client: "Legal-tech startup, Manhattan"
+  industry: "Legal"
+  year: 2024
+  duration: "4 months"
+  stack: ["AWS", "Vanta", "Terraform", "GitHub Actions"]
+  summary: "Prepared the startup's AWS environment and engineering practices for a SOC 2 Type II audit, covering access reviews, change management evidence, and infrastructure-as-code adoption for previously hand-built resources. Worked alongside the auditor's readiness checklist rather than imposing a parallel framework."
+  outcome: "The Type II audit completed with zero infrastructure-related exceptions."
+
+- title: "Kubernetes Adoption Roadmap for Retailer"
+  category: cloud-consulting
+  client: "Enterprise home-goods retailer"
+  industry: "Retail"
+  year: 2023
+  duration: "8 weeks"
+  stack: ["Azure", "AKS", "Helm", "Azure DevOps"]
+  summary: "Assessed whether the retailer's 60-service application estate justified Kubernetes adoption, and for which workloads. The recommendation was selective: AKS for the customer-facing tier, App Service retained for internal apps, with a platform team operating shared clusters rather than per-team clusters."
+  outcome: "The phased plan avoided an estimated $900K in platform build-out the original all-in proposal required."
+
+- title: "Disaster Recovery Program for Logistics Operator"
+  category: cloud-consulting
+  client: "Enterprise freight and logistics provider"
+  industry: "Logistics"
+  year: 2024
+  duration: "5 months"
+  stack: ["AWS", "AWS Backup", "Route 53", "Terraform"]
+  summary: "Established a tiered DR program after the client discovered during an outage that recovery procedures existed only in one engineer's head. Classified 90 applications into four recovery tiers, implemented pilot-light infrastructure for tier-1 systems, and ran the company's first full failover exercise."
+  outcome: "The audited failover exercise restored tier-1 systems in 47 minutes against a 2-hour RTO."
+
+- title: "IAM Cleanup and Least-Privilege Initiative"
+  category: cloud-consulting
+  client: "Mid-size asset manager, Midtown"
+  industry: "Fintech"
+  year: 2025
+  duration: "3 months"
+  stack: ["AWS", "IAM Access Analyzer", "Terraform", "Okta"]
+  summary: "Audited 14 years of accumulated IAM users, roles, and policies, finding 212 unused principals and broad wildcard policies attached to production workloads. Replaced long-lived access keys with Okta-federated roles and moved all IAM definitions into Terraform with mandatory review."
+  outcome: "Principals with administrative-scope access fell from 61 to 9."
+
+- title: "Azure Cost Optimization for Hospital Network"
+  category: cloud-consulting
+  client: "Regional hospital network, NY/NJ"
+  industry: "Healthcare"
+  year: 2025
+  duration: "6 weeks"
+  stack: ["Azure", "Azure Advisor", "Azure Monitor", "PowerShell"]
+  summary: "Performed a focused cost review of the network's Azure estate following two years of unreviewed growth post-migration. Key findings included oversized SQL tiers held over from migration sizing, orphaned disks and snapshots, and dev environments running around the clock."
+  outcome: "Identified and implemented reductions totaling 31% of monthly Azure spend."
+
+- title: "Data Platform Build for Media Analytics"
+  category: cloud-consulting
+  client: "Digital media company, NYC"
+  industry: "Media"
+  year: 2023
+  duration: "9 months"
+  stack: ["GCP", "BigQuery", "Dataform", "Looker"]
+  summary: "Designed and built a central data platform consolidating audience, advertising, and subscription data that previously lived in seven team-specific databases. Established dataset ownership, a transformation layer in Dataform, and governed Looker access for editorial and sales analysts."
+  outcome: "Cross-domain revenue reporting that took analysts 2 days of manual joins now refreshes hourly."
+
+- title: "Architecture Review of Real Estate Listings Platform"
+  category: cloud-consulting
+  client: "PropTech startup, NYC"
+  industry: "Real Estate"
+  year: 2023
+  duration: "6 weeks"
+  stack: ["GCP", "Cloud Run", "Cloud SQL", "Memorystore"]
+  summary: "Reviewed the architecture of a listings platform that buckled during a press-driven traffic spike. Findings centered on a single overloaded Cloud SQL instance serving both search and transactional traffic; the remediation plan introduced read replicas, a Memorystore cache layer, and load shedding."
+  outcome: "A repeat traffic spike three months later was absorbed with p95 latency under 400ms."
+
+- title: "Multi-Account AWS Landing Zone for EdTech"
+  category: cloud-consulting
+  client: "Venture-backed edtech startup, NYC"
+  industry: "Edtech"
+  year: 2024
+  duration: "10 weeks"
+  stack: ["AWS", "Control Tower", "Terraform", "AWS SSO"]
+  summary: "Replaced a single shared AWS account containing production, staging, and personal experiments with a Control Tower based multi-account structure. Defined account vending via Terraform, centralized logging, and SCP guardrails sized for a 15-engineer team without a dedicated platform group."
+  outcome: "Production-impacting incidents caused by non-production changes dropped to zero over the next two quarters."
+
+- title: "FinOps Practice Setup on GCP"
+  category: cloud-consulting
+  client: "Enterprise marketing technology firm"
+  industry: "Professional Services"
+  year: 2025
+  duration: "4 months"
+  stack: ["GCP", "BigQuery billing export", "Looker Studio", "Terraform"]
+  summary: "Stood up an internal FinOps practice: billing data exported to BigQuery, team-level cost allocation via project labels, monthly review rituals, and committed-use discount strategy. Engineering managers now see their team's spend against budget in a Looker Studio dashboard refreshed daily."
+  outcome: "Committed-use coverage rose from 12% to 64% of eligible spend within two quarters."
+
+- title: "Security Hardening for State Agency Workloads"
+  category: cloud-consulting
+  client: "State agency, New York"
+  industry: "Government"
+  year: 2024
+  duration: "7 months"
+  stack: ["Azure Government", "Microsoft Sentinel", "Azure Policy", "Defender for Cloud"]
+  summary: "Hardened the agency's Azure Government environment against NIST 800-53 moderate baseline controls, implementing policy-as-code enforcement, centralized log collection into Sentinel, and quarterly access recertification. Authored runbooks the agency's small security team could execute without vendor dependency."
+  outcome: "Open high-severity findings in Defender for Cloud fell from 94 to 7."
+
+- title: "Manufacturing IoT Data Platform Assessment"
+  category: cloud-consulting
+  client: "Industrial equipment manufacturer, PA"
+  industry: "Manufacturing"
+  year: 2025
+  duration: "8 weeks"
+  stack: ["Azure", "IoT Hub", "Azure Data Explorer", "Event Hubs"]
+  summary: "Assessed the manufacturer's plan to stream sensor telemetry from 11 plants into Azure, validating volume assumptions against actual line data. Recommended Azure Data Explorer over the proposed SQL-based design after benchmarking both with a week of production telemetry."
+  outcome: "The validated design cut projected platform run cost 36% versus the original proposal."
+
+- title: "DR and Backup Review for Non-Profit"
+  category: cloud-consulting
+  client: "Healthcare-focused non-profit, NYC"
+  industry: "Non-profit"
+  year: 2023
+  duration: "6 weeks"
+  stack: ["AWS", "AWS Backup", "S3", "CloudFormation"]
+  summary: "Reviewed backup coverage after a ransomware incident at a peer organization prompted the board to ask hard questions. Found unprotected EBS volumes and untested restore procedures; implemented AWS Backup plans, cross-account vault copies, and a quarterly restore-test calendar."
+  outcome: "First full restore test recovered the donor database in 38 minutes from immutable backups."
+
+- title: "Kubernetes Platform Review for Fintech"
+  category: cloud-consulting
+  client: "Payments infrastructure company, NYC"
+  industry: "Fintech"
+  year: 2026
+  duration: "2 months"
+  stack: ["GCP", "GKE", "ArgoCD", "Istio"]
+  summary: "Reviewed a four-cluster GKE platform that had grown organically, focusing on upgrade strategy, workload identity adoption, and an Istio deployment serving only 2 of its configured features. Recommendations included consolidating to two clusters and replacing Istio with GKE Gateway for the actual use cases."
+  outcome: "Cluster operations toil dropped an estimated 15 hours per week after consolidation."
+
+- title: "Energy Sector Cloud Governance Framework"
+  category: cloud-consulting
+  client: "Regional energy utility, upstate NY"
+  industry: "Energy"
+  year: 2024
+  duration: "5 months"
+  stack: ["AWS", "Service Control Policies", "Terraform", "AWS Config"]
+  summary: "Developed a cloud governance framework for a utility expanding AWS usage beyond a single pilot team, covering account structure, tagging policy, change controls aligned to NERC CIP boundaries, and preventive guardrails. Conducted workshops with both IT and OT stakeholders to mark clear separation lines."
+  outcome: "All 6 new application teams onboarded to AWS passed internal compliance review without exceptions."
+
+- title: "Hotel Group Azure Architecture Review"
+  category: cloud-consulting
+  client: "Boutique hotel group, Manhattan and Miami"
+  industry: "Hospitality"
+  year: 2025
+  duration: "7 weeks"
+  stack: ["Azure", "App Service", "Azure Front Door", "Azure SQL"]
+  summary: "Reviewed the architecture behind the group's direct-booking site after conversion-impacting slowdowns during promotional pushes. Identified an undersized Azure SQL tier and missing CDN coverage for image-heavy pages; implemented Front Door caching and autoscale rules with the internal developer."
+  outcome: "Page load p75 improved from 4.1s to 1.6s on the booking funnel."
+
+- title: "Data Warehouse Governance for University"
+  category: cloud-consulting
+  client: "Private university, NYC"
+  industry: "Edtech"
+  year: 2026
+  duration: "3 months"
+  stack: ["GCP", "BigQuery", "Dataplex", "dbt"]
+  summary: "Established governance for a BigQuery warehouse shared by institutional research, admissions, and advancement, where FERPA-scoped data had been accessible to all analysts. Implemented column-level security, dataset ownership assignments, and documentation standards enforced in dbt."
+  outcome: "Access to FERPA-scoped columns narrowed from 74 analysts to the 12 with a documented need."
+
+- title: "Insurance Carrier Multi-Cloud Strategy Assessment"
+  category: cloud-consulting
+  client: "Fortune 500 insurance carrier"
+  industry: "Insurance"
+  year: 2025
+  duration: "11 weeks"
+  stack: ["AWS", "Azure", "Terraform", "FOCUS billing spec"]
+  summary: "Assessed the carrier's de facto multi-cloud position, where AWS hosted policy systems and Azure ran the data estate, with duplicated tooling and split platform teams. Recommended formalizing workload placement criteria and consolidating CI/CD and observability tooling rather than forcing a single-cloud consolidation."
+  outcome: "Tooling consolidation alone removed $640K in annual duplicate licensing."

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      {% include logo.html %}
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="site-nav" aria-label="Main">
+        <a href="{{ '/services/' | relative_url }}" {% if page.url contains '/services' %}class="active"{% endif %}>Services</a>
+        <a href="{{ '/projects/' | relative_url }}" {% if page.url contains '/projects' %}class="active"{% endif %}>Projects</a>
+        <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a>
+        <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about' %}class="active"{% endif %}>About</a>
+        <a href="{{ '/contact/' | relative_url }}" class="nav-cta {% if page.url contains '/contact' %}active{% endif %}">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-wordmark">NetLine<span>NYC</span></span>
+        <p>Technology consulting for companies that build.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="{{ '/services/#app-design' | relative_url }}">App Design</a>
+        <a href="{{ '/services/#cloud-migration' | relative_url }}">Cloud Migration</a>
+        <a href="{{ '/services/#cloud-consulting' | relative_url }}">Cloud Consulting</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <span>New York, NY</span>
+      </div>
+    </div>
+    <div class="container footer-legal">
+      <span>&copy; {{ site.time | date: '%Y' }} NetLine NYC. All rights reserved.</span>
+    </div>
+  </footer>
+</body>
+</html>
