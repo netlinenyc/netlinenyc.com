@@ -9,6 +9,10 @@ description: NetLine NYC is a New York technology consulting firm focused on app
 
 NetLine NYC is a technology consulting firm based in New York City. We work in three areas — application design, cloud migration, and cloud platform consulting — and deliberately nothing else.
 
+<div class="photo-frame photo-band">
+  <img src="/assets/img/photos/office.jpg" alt="NetLine NYC office space" loading="lazy">
+</div>
+
 We started the firm because we kept watching the same pattern: companies hiring large consultancies for cloud work, getting a rotating cast of junior staff, and ending up with architectures nobody on either side fully understood. Our answer was to stay small, staff every engagement with senior people, and limit the number of projects we take on at once.
 
 ## Who we work with
