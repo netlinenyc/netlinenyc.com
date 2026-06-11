@@ -82,7 +82,7 @@ Corporate website for **NetLine NYC**, a technology consulting firm. The primary
 - **Platform:** Jekyll static site
 - **Hosting:** GitHub Pages
 - **Custom domain:** netlinenyc.com (CNAME configured)
-- **No backend** — contact form via a static form service (e.g., Formspree)
+- **No backend, no third-party services** — contact form assembles a structured email client-side and opens the visitor's mail app (mailto:) addressed to contact@netlinenyc.com
 - **Mobile responsive**
 - **Fast load times** — minimal JS, CSS-first design
 - **SEO-ready** — meta tags, structured headings, sitemap

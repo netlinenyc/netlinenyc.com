@@ -20,7 +20,7 @@ permalink: /contact/
         <p class="info-line"><strong>Email</strong> — <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         <p class="info-line"><strong>Location</strong> — New York, NY</p>
       </div>
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <form id="contact-form">
         <div class="form-field">
           <label for="name">Name</label>
           <input type="text" id="name" name="name" required autocomplete="name">
@@ -51,7 +51,29 @@ permalink: /contact/
           <textarea id="message" name="message" required></textarea>
         </div>
         <button type="submit" class="btn">Send message</button>
+        <p class="form-note">Submitting opens your email client with the message pre-filled — nothing is sent through a third-party service.</p>
       </form>
     </div>
   </div>
 </section>
+
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var f = this;
+    var get = function (id) { return f.querySelector('#' + id).value.trim(); };
+    var subject = 'Inquiry — ' + get('service') + (get('company') ? ' (' + get('company') + ')' : '');
+    var body = [
+      'Name: ' + get('name'),
+      'Company: ' + get('company'),
+      'Email: ' + get('email'),
+      'Phone: ' + (get('phone') || '—'),
+      'Service interest: ' + get('service'),
+      '',
+      get('message')
+    ].join('\n');
+    window.location.href = 'mailto:{{ site.email }}'
+      + '?subject=' + encodeURIComponent(subject)
+      + '&body=' + encodeURIComponent(body);
+  });
+</script>

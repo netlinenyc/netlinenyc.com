@@ -540,6 +540,12 @@ input:focus, select:focus, textarea:focus {
 
 textarea { min-height: 150px; resize: vertical; }
 
+.form-note {
+  margin-top: 16px;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+}
+
 /* ---------- footer ---------- */
 
 .site-footer {
