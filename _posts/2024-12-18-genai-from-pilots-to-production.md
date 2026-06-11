@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "GenAI in 2024: the pilots are over, the plumbing remains"
-date: 2024-12-18
+date: 2024-12-18 11:27:00 -0500
+author: "Priya Sharma"
 category: Insights
 excerpt: "The clients whose AI pilots reached production this year shared one trait: they treated it as systems integration, not magic."
 ---

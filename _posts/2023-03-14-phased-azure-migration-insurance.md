@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Showcase: phased Azure migration for a regional insurance carrier"
-date: 2023-03-14
+date: 2023-03-14 10:22:00 -0500
+author: "Priya Sharma"
 category: Migration
 excerpt: "A three-phase datacenter exit moved 140 workloads to Azure with no unplanned downtime."
 ---

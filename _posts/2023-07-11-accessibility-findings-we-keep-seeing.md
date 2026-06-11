@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "The accessibility findings we keep seeing"
-date: 2023-07-11
+date: 2023-07-11 10:21:00 -0500
+author: "Rohan Krishnan"
 category: App Design
 excerpt: "Five recurring WCAG failures account for most of the remediation work in our app audits."
 ---

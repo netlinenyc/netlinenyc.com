@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "NetLine NYC launches a cloud security review practice"
-date: 2023-11-15
+date: 2023-11-15 12:32:00 -0500
+author: "Arjun Mehta"
 category: Company
 excerpt: "We are formalizing the security assessments we have been doing informally into a standalone practice area."
 ---

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "The virtualization licensing shakeup is forcing real decisions"
-date: 2024-03-26
+date: 2024-03-26 10:43:00 -0500
+author: "Rohan Krishnan"
 category: Insights
 excerpt: "Sudden licensing changes in the virtualization market have turned a deferred infrastructure question into a 2024 budget line."
 ---

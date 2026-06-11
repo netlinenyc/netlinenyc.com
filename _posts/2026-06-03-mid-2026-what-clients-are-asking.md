@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Mid-2026: what clients are actually asking for"
-date: 2026-06-03
+date: 2026-06-03 15:13:00 -0500
+author: "Arjun Mehta"
 category: Insights
 excerpt: "Halfway through 2026, client demand has shifted from adopting new platforms to governing the ones already adopted."
 ---

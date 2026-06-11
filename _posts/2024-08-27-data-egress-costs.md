@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Data egress: the line item nobody budgets for"
-date: 2024-08-27
+date: 2024-08-27 09:03:00 -0500
+author: "Arjun Mehta"
 category: Cloud
 excerpt: "Egress charges quietly shape architecture decisions, and they deserve a place in every design review."
 ---

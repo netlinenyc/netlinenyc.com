@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Showcase: full datacenter exit to Azure for a specialty manufacturer"
-date: 2026-01-21
+date: 2026-01-21 09:09:00 -0500
+author: "Rohan Krishnan"
 category: Migration
 excerpt: "An eleven-month program moved a specialty manufacturer's entire estate to Azure ahead of a datacenter lease expiry."
 ---

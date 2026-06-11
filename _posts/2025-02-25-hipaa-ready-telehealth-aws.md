@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Showcase: HIPAA-ready AWS environment for a telehealth provider"
-date: 2025-02-25
+date: 2025-02-25 15:46:00 -0500
+author: "Michael Reed"
 category: Migration
 excerpt: "We migrated a telehealth platform onto a HIPAA-aligned AWS landing zone with auditable controls from day one."
 ---

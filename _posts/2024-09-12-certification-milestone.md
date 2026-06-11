@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "A certification milestone for our engineering team"
-date: 2024-09-12
+date: 2024-09-12 09:57:00 -0500
+author: "Michael Reed"
 category: Company
 excerpt: "Our consultants now hold more than forty professional-level cloud certifications across the three major platforms."
 ---

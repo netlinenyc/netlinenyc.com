@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Generative AI pressure is reshaping 2023 roadmaps"
-date: 2023-06-19
+date: 2023-06-19 11:39:00 -0500
+author: "Michael Reed"
 category: Insights
 excerpt: "Boards are asking every technology leader for an AI story; the durable answer starts with data plumbing, not demos."
 ---

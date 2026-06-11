@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "DR tests that fail are the point"
-date: 2023-12-07
+date: 2023-12-07 17:21:00 -0500
+author: "Rohan Krishnan"
 category: Cloud
 excerpt: "A disaster recovery plan that has never failed a test has probably never been tested honestly."
 ---

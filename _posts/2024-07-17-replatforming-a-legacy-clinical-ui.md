@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Showcase: replatforming a legacy clinical scheduling UI"
-date: 2024-07-17
+date: 2024-07-17 12:08:00 -0500
+author: "Priya Sharma"
 category: App Design
 excerpt: "We rebuilt a fifteen-year-old scheduling interface for a healthcare network without pausing daily operations."
 ---

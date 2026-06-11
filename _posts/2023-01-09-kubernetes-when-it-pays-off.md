@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Kubernetes adoption: when it actually pays off"
-date: 2023-01-09
+date: 2023-01-09 18:07:00 -0500
+author: "Arjun Mehta"
 category: Cloud
 excerpt: "Kubernetes earns its complexity only when an organization has enough services, teams, and release velocity to amortize it."
 ---

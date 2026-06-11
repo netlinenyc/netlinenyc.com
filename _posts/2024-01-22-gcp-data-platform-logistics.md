@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Showcase: GCP data platform for a logistics operator"
-date: 2024-01-22
+date: 2024-01-22 16:48:00 -0500
+author: "Michael Reed"
 category: Migration
 excerpt: "We replaced a nightly batch warehouse with a streaming pipeline on GCP, cutting reporting latency from a day to minutes."
 ---

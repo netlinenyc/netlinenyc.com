@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Showcase: cutting an AWS bill by a third for a media company"
-date: 2025-07-15
+date: 2025-07-15 13:53:00 -0500
+author: "Priya Sharma"
 category: Cloud
 excerpt: "A focused eight-week optimization reduced a digital media company's AWS spend by 34 percent with no architecture changes."
 ---

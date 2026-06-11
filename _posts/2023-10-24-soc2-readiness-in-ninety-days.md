@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "SOC 2 readiness in ninety days: what it actually takes"
-date: 2023-10-24
+date: 2023-10-24 13:01:00 -0500
+author: "Rohan Krishnan"
 category: Insights
 excerpt: "A SaaS client reached SOC 2 Type I readiness in one quarter by treating controls as engineering work, not paperwork."
 ---

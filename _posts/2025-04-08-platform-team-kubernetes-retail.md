@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Showcase: standing up a platform team for a retail group"
-date: 2025-04-08
+date: 2025-04-08 08:35:00 -0500
+author: "Arjun Mehta"
 category: Cloud
 excerpt: "We helped a retail group consolidate eleven snowflake Kubernetes clusters into a paved-road platform run by a four-person team."
 ---

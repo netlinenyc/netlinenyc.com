@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "IAM hygiene: the unglamorous control that decides your breach story"
-date: 2024-06-04
+date: 2024-06-04 12:50:00 -0500
+author: "Arjun Mehta"
 category: Cloud
 excerpt: "Most cloud incidents we review trace back to over-permissioned identities and forgotten credentials, not exotic exploits."
 ---

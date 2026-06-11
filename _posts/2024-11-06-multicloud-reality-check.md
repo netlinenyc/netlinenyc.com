@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Multi-cloud: a reality check"
-date: 2024-11-06
+date: 2024-11-06 17:52:00 -0500
+author: "Sarah Coleman"
 category: Cloud
 excerpt: "Most organizations claiming a multi-cloud strategy actually have a primary cloud and a collection of accidents."
 ---

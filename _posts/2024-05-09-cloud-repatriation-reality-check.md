@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "The repatriation debate needs less ideology"
-date: 2024-05-09
+date: 2024-05-09 11:56:00 -0500
+author: "Priya Sharma"
 category: Insights
 excerpt: "Moving workloads out of the cloud makes sense for a specific profile of workload; it is not a movement, it is arithmetic."
 ---

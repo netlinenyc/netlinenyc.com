@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Build the landing zone before the first workload"
-date: 2023-05-08
+date: 2023-05-08 18:23:00 -0500
+author: "Arjun Mehta"
 category: Cloud
 excerpt: "Identity, network topology, logging, and guardrails should exist before the first production workload arrives."
 ---

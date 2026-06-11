@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Rolling out design tokens without a rewrite"
-date: 2025-05-20
+date: 2025-05-20 15:03:00 -0500
+author: "Sarah Coleman"
 category: App Design
 excerpt: "Design tokens can be introduced into a living product incrementally, starting with color and spacing in the highest-traffic screens."
 ---

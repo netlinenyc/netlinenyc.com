@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Design systems for small product teams"
-date: 2023-02-21
+date: 2023-02-21 12:38:00 -0500
+author: "Michael Reed"
 category: App Design
 excerpt: "A design system for a ten-person team should be a component library with rules, not a department."
 ---

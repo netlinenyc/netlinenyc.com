@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "FinOps for AI workloads: faster loops, harder questions"
-date: 2026-03-12
+date: 2026-03-12 11:13:00 -0500
+author: "Sarah Coleman"
 category: Insights
 excerpt: "AI spend breaks the monthly cost review cadence; GPU-heavy workloads need unit economics and daily feedback to stay honest."
 ---

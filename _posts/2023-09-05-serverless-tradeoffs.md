@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Serverless tradeoffs, honestly stated"
-date: 2023-09-05
+date: 2023-09-05 09:23:00 -0500
+author: "Michael Reed"
 category: Cloud
 excerpt: "Serverless removes a class of operational work and introduces a class of architectural constraints; both sides belong in the decision."
 ---

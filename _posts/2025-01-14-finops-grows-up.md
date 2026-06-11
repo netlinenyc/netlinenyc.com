@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "FinOps grows up"
-date: 2025-01-14
+date: 2025-01-14 14:43:00 -0500
+author: "Arjun Mehta"
 category: Cloud
 excerpt: "Cloud cost management has matured from spreadsheet archaeology into an engineering discipline with owners and SLOs."
 ---

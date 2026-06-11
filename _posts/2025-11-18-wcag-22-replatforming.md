@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "WCAG 2.2 as a forcing function for UI cleanup"
-date: 2025-11-18
+date: 2025-11-18 09:25:00 -0500
+author: "Michael Reed"
 category: App Design
 excerpt: "Teams treating WCAG 2.2 alignment as pure compliance are missing a cheap opportunity to fix long-standing UI debt."
 ---

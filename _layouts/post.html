@@ -8,6 +8,12 @@ layout: default
     <div class="post-body">
       {{ content }}
     </div>
+    {% if page.author %}
+    <div class="post-sig">
+      <span class="post-sig-author">{{ page.author }}</span>
+      <span class="post-sig-date">{{ page.date | date: "%B %-d, %Y · %-I:%M %p" }} ET</span>
+    </div>
+    {% endif %}
     <p class="post-back"><a href="{{ '/blog/' | relative_url }}">&larr; All posts</a></p>
   </div>
 </article>

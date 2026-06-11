@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "NetLine NYC opens a second workspace in Brooklyn"
-date: 2025-08-19
+date: 2025-08-19 11:53:00 -0500
+author: "Sarah Coleman"
 category: Company
 excerpt: "We have added a Brooklyn workspace to complement our Manhattan office as the team passes twenty people."
 ---

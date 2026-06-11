@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Mobile performance budgets that teams actually keep"
-date: 2024-02-13
+date: 2024-02-13 18:41:00 -0500
+author: "Arjun Mehta"
 category: App Design
 excerpt: "Performance budgets only work when they are enforced in CI and owned by the same people who ship features."
 ---

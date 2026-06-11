@@ -427,9 +427,41 @@ p a, li a { text-decoration: underline; text-underline-offset: 3px; }
 .year-mark:first-of-type { margin-top: 0; }
 
 .post { padding: 72px 0 96px; }
-.post h1 { margin-bottom: 28px; }
-.post-body p + p { margin-top: 16px; }
-.post-back { margin-top: 48px; font-size: 0.9rem; }
+.post h1 { margin-bottom: 32px; }
+
+.post-body { font-size: 1.02rem; line-height: 1.75; }
+
+.post-body p { margin-bottom: 18px; }
+
+.post-body h2 {
+  font-size: 1.35rem;
+  margin: 40px 0 16px;
+}
+
+.post-body ul {
+  margin: 0 0 18px 0;
+  padding-left: 24px;
+}
+
+.post-body li { margin-bottom: 10px; }
+.post-body li::marker { color: var(--ink-muted); }
+.post-sig {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.post-sig-author { font-weight: 600; font-size: 0.95rem; }
+
+.post-sig-date {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+}
+
+.post-back { margin-top: 28px; font-size: 0.9rem; }
 
 /* ---------- home: recent posts ---------- */
 
