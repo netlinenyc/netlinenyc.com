@@ -27,3 +27,6 @@ Our clients range from venture-backed startups to Fortune 500 enterprises, with 
 We're headquartered in New York City and work with clients across North America and Europe. Most engagements are remote-first with on-site time where it counts: discovery, cutover, and launch.
 
 If that sounds like the kind of firm you want to work with, [get in touch](/contact/).
+
+<img class="skyline" src="/assets/img/skyline.svg" alt="New York City skyline" width="1200" height="180">
+

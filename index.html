@@ -5,14 +5,17 @@ description: Application design, cloud migration, and cloud platform consulting 
 ---
 
 <section class="hero">
-  <div class="container">
-    <p class="eyebrow">Technology Consulting — New York</p>
-    <h1>We design applications and move companies to the cloud.</h1>
-    <p class="lede">NetLine NYC helps enterprises, mid-size businesses, and startups ship software and run it well — on Google Cloud, AWS, and Azure.</p>
-    <div class="hero-actions">
-      <a class="btn inverse" href="{{ '/contact/' | relative_url }}">Start a conversation</a>
-      <a class="btn ghost-inverse" href="{{ '/projects/' | relative_url }}">See our work</a>
+  <div class="container hero-inner">
+    <div>
+      <p class="eyebrow">Technology Consulting — New York</p>
+      <h1>We design applications and move companies to the cloud.</h1>
+      <p class="lede">NetLine NYC helps enterprises, mid-size businesses, and startups ship software and run it well — on Google Cloud, AWS, and Azure.</p>
+      <div class="hero-actions">
+        <a class="btn inverse" href="{{ '/contact/' | relative_url }}">Start a conversation</a>
+        <a class="btn ghost-inverse" href="{{ '/projects/' | relative_url }}">See our work</a>
+      </div>
     </div>
+    <img class="hero-art" src="{{ '/assets/img/hero-network.svg' | relative_url }}" alt="" width="420" height="420">
   </div>
 </section>
 
@@ -24,16 +27,19 @@ description: Application design, cloud migration, and cloud platform consulting 
     </div>
     <div class="grid-3">
       <div class="card">
+        <div class="card-icon">{% include icon.html name="app" %}</div>
         <h3>App Design</h3>
         <p>Mobile and web applications, internal tools, and design systems — taken from concept to production with engineering rigor.</p>
         <a class="card-link" href="{{ '/services/#app-design' | relative_url }}">App Design &rarr;</a>
       </div>
       <div class="card">
+        <div class="card-icon">{% include icon.html name="migrate" %}</div>
         <h3>Cloud Migration</h3>
         <p>Datacenter exits, replatforming, and database migrations — planned, rehearsed, and executed with minimal disruption.</p>
         <a class="card-link" href="{{ '/services/#cloud-migration' | relative_url }}">Cloud Migration &rarr;</a>
       </div>
       <div class="card">
+        <div class="card-icon">{% include icon.html name="consult" %}</div>
         <h3>Cloud Consulting</h3>
         <p>Architecture, cost optimization, security, and compliance across Google Cloud, AWS, and Azure.</p>
         <a class="card-link" href="{{ '/services/#cloud-consulting' | relative_url }}">Cloud Consulting &rarr;</a>

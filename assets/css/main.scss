@@ -181,6 +181,20 @@ p a, li a { text-decoration: underline; text-underline-offset: 3px; }
   flex-wrap: wrap;
 }
 
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.hero-art {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  justify-self: end;
+}
+
 /* ---------- sections ---------- */
 
 .section { padding: 88px 0; }
@@ -204,6 +218,9 @@ p a, li a { text-decoration: underline; text-underline-offset: 3px; }
   background: var(--bg);
   padding: 36px 32px;
 }
+
+.card-icon { color: var(--navy); margin-bottom: 20px; }
+.card-icon .icon { display: block; }
 
 .card h3 { margin-bottom: 10px; }
 .card p { font-size: 0.95rem; color: var(--ink-muted); }
@@ -264,6 +281,16 @@ p a, li a { text-decoration: underline; text-underline-offset: 3px; }
   grid-template-columns: 1fr 1fr;
   gap: 64px;
   align-items: start;
+}
+
+.service-icon { color: var(--navy); margin-bottom: 18px; }
+.service-icon .icon { display: block; }
+
+.skyline {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 56px;
 }
 
 .service-grid h2 { margin-bottom: 16px; }
@@ -575,5 +602,7 @@ textarea { min-height: 150px; resize: vertical; }
   .nav-toggle:checked ~ .site-nav { display: flex; }
 
   .hero { padding: 72px 0 80px; }
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-art { display: none; }
   .section { padding: 64px 0; }
 }
